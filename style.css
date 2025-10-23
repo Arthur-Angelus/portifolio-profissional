@@ -1,18 +1,69 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
     color: inherit;
 }
-ul,ol,li{
-    list-style: none;
+
+ul,
+ol,
+li {
+    color: #ffffffbe;
 }
+
 body {
     display: grid;
     justify-content: center;
     align-items: center;
-    background-color: #00000015;
+    background-color: #4F7F93;
+}
+
+header {
+    background-color: #112F47;
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section.um{
+    display: flex;
+    flex-direction: column;
+}
+
+div.itens {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+div.habilidades{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+div.info{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width: 10rem;
+}
+
+h1, h2, h3, p {
+    color: #F7F5EF;
+    font-family: "Tektur", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
